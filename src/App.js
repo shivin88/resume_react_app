@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import Navigation from './components/Navigation';
+import HeroSection from './components/HeroSection';
+import EducationSection from './components/EducationSection';
+import ExperienceSection from './components/ExperienceSection';
+import ProjectsSection from './components/ProjectsSection';
+import SkillsSection from './components/SkillsSection';
+import LeadershipSection from './components/LeadershipSection';
+import AchievementsSection from './components/AchievementsSection';
+import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
+import './index.css';
 
 function App() {
+  useEffect(() => {
+    document.body.classList.add('fade-in');
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <main>
+        <HeroSection />
+        <EducationSection />
+        <ExperienceSection />
+        <ProjectsSection />
+        <SkillsSection />
+        <LeadershipSection />
+        <AchievementsSection />
+        <ContactSection />
+      </main>
+      <Footer />
     </div>
   );
 }
