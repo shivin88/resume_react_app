@@ -28,9 +28,6 @@ const HeroSection = () => {
                 <i className="bi bi-download me-2"></i>
                 Download Resume
               </button>
-              <button className="btn btn-outline-primary px-4 py-2" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
-                Get In Touch
-              </button>
             </div>
             <div className="d-flex justify-content-center gap-3">
               <a href="https://github.com" className="btn btn-outline-primary rounded-circle p-3">
