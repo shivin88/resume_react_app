@@ -6,7 +6,19 @@ body {
   color: #f8fafc;
   overflow-x: hidden;
 }
-
+.my-photo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.my-photo-large {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 20px;
+  border: 4px solid var(--primary-color);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
 :root {
   --primary-color: #3b82f6;
   --accent-color: #f59e0b;

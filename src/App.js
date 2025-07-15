@@ -9,6 +9,7 @@ import LeadershipSection from './components/LeadershipSection';
 import AchievementsSection from './components/AchievementsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+import ClicksSection from './components/ClicksSection';
 import './index.css';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <SkillsSection />
         <LeadershipSection />
         <AchievementsSection />
+        <ClicksSection />
         <ContactSection />
       </main>
       <Footer />

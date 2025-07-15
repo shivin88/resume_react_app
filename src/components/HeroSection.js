@@ -16,6 +16,9 @@ const HeroSection = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className={`col-lg-12 text-center ${isVisible ? 'slide-in-left' : 'opacity-0'}`}>
+            <div className="my-photo-container mb-4">
+              <img src="/myimage.jpeg" alt="Shivin Goyal" className="my-photo-large" />
+            </div>
             <div className="mb-4">
               <h1 className="display-1 fw-bold mb-3">
                 <span className="gradient-text">Shivin</span> <span className="text-white">Goyal</span>
@@ -38,11 +41,6 @@ const HeroSection = () => {
               </a>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="position-absolute bottom-0 start-50 translate-middle-x mb-4">
-        <div className="border border-primary rounded-pill d-flex justify-content-center p-2" style={{ width: '30px', height: '50px' }}>
-          <div className="bg-primary rounded-pill" style={{ width: '4px', height: '15px', animation: 'bounce 2s infinite' }}></div>
         </div>
       </div>
     </section>
