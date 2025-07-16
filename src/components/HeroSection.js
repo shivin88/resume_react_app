@@ -21,16 +21,16 @@ const HeroSection = () => {
             </div>
             <div className="mb-4">
               <h1 className="display-1 fw-bold mb-3">
-                <span className="gradient-text">Shivin</span> <span className="text-white">Goyal</span>
+                <span className="gradient-text">Shivin</span> <span className="gradient-text">Goyal</span>
               </h1>
               <h3 className="text-primary mb-3">Aspiring Computer Science Student</h3>
               <p className="lead text-muted">Passionate about Software Development, Data Analysis, AI, and Emerging Technologies</p>
             </div>
             <div className="d-flex flex-wrap gap-3 justify-content-center mb-4">
-              <button className="btn btn-glow text-white px-4 py-2">
+              <a href="/Resume-2.pdf" download className="btn btn-glow text-white px-4 py-2">
                 <i className="bi bi-download me-2"></i>
                 Download Resume
-              </button>
+              </a>
             </div>
             <div className="d-flex justify-content-center gap-3">
               <a href="https://github.com" className="btn btn-outline-primary rounded-circle p-3">
