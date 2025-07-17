@@ -64,6 +64,14 @@ const AchievementsSection = () => {
       category: "AI/ML"
     },
     {
+      title: "Convolutional Neural Networks Certification",
+      type: "Certification",
+      description: "Coursera certification for Convolutional Neural Networks",
+      url: "https://www.coursera.org/account/accomplishments/verify/FUYFZDTW4A89",
+      icon: "bi-award",
+      category: "AI/ML"
+    },
+    {
       title: "National Hockey Team Representation",
       type: "Sports Achievement",
       description: "Represented the Indian Team in Rourkela, Italy, in inline hockey",
@@ -95,8 +103,8 @@ const AchievementsSection = () => {
 
   const categories = ["All", "AI/ML", "Sports", "Technical", "General"];
 
-  const filteredAchievements = selectedCategory === "All" 
-    ? achievements 
+  const filteredAchievements = selectedCategory === "All"
+    ? achievements
     : achievements.filter(achievement => achievement.category === selectedCategory);
 
   return (
@@ -129,7 +137,7 @@ const AchievementsSection = () => {
         <div className="row">
           {filteredAchievements.map((achievement, index) => (
             <div key={index} className="col-lg-4 col-md-6 mb-4">
-              <div className={`custom-card p-4 h-100 d-flex flex-column ${isVisible ? 'fade-in-up' : 'opacity-0'}`}
+              <div className={`custom-card p-4 h-100 d-flex flex-column ${isVisible ? 'fade-in-up' : 'opacity-0'}`} 
                    style={{animationDelay: `${index * 0.1}s`}}>
                 <div className="d-flex align-items-start mb-3">
                   <div className="icon-container me-3 flex-shrink-0" style={{width: '48px', height: '48px'}}>

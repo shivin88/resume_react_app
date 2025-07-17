@@ -3,7 +3,7 @@ import React from 'react';
 const ClicksSection = () => {
   const images = [
     { src: '/myimage4.jpeg', caption: 'Representing Team India in Italy' },
-    { src: '/myimage2.jpeg', caption: 'Award Ceremony 2Recognized by Student Affairs for dedication and achievement in state and international sports' },
+    { src: '/myimage2.jpeg', caption: 'Recognized by Student Affairs for dedication and achievement in state and international sports' },
     { src: '/myimage3.jpeg', caption: 'In school magazine for my contribution in national and international tournaments' },
     { src: '/myimage5.jpeg', caption: 'Organizing team member for the successful International Conference on AI, Computing, IoT, and Data Analytics (AICTA)' },
     { src: '/myimage6.jpeg', caption: 'With many years of experience, I led a successful robotics team at TRYST, IIT Delhi' },

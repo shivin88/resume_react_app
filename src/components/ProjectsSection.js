@@ -23,10 +23,10 @@ const ProjectsSection = () => {
 
   const projects = [
     {
-      title: "Food Ordering Website",
-      description: "Front end project with HTML and CSS for seeing food items for a restaurant.",
+      title: "Personal Resume Website",
+      description: "Built and deployed a React.js portfolio with custom CSS, EmailJS-powered contact form, modular components, and smooth scrolling. Hosted on a .info domain via Vercel with GitHub.",
       category: "Web Development",
-      technologies: ["HTML", "CSS", "JavaScript"],
+      technologies: ["React", "CSS", "EmailJS", "Vercel", ".info Domain"],
       gradient: "linear-gradient(135deg, #f59e0b, #dc2626)",
       icon: "bi-shop"
     },
