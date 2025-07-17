@@ -7,7 +7,7 @@ const ClicksSection = () => {
     { src: '/myimage3.jpeg', caption: 'In school magazine for my contribution in national and international tournaments' },
     { src: '/myimage5.jpeg', caption: 'Organizing team member for the successful International Conference on AI, Computing, IoT, and Data Analytics (AICTA)' },
     { src: '/myimage6.jpeg', caption: 'With many years of experience, I led a successful robotics team at TRYST, IIT Delhi' },
-    { src: '/myimage7.jpeg', caption: 'Awarded over 100 medals in many firlds like cycling,skating,robotics,hockey' }
+    { src: '/myimage7.jpeg', caption: 'Awarded over 100 medals in many fields like cycling,skating,robotics,hockey' }
   ];
 
   return (
