@@ -27,14 +27,20 @@ const ContactSection = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_9pd5z5r', 'template_fkx44ja', form.current, 'RoiwjYykO6KZ2YWF-')
-      .then((result) => {
-        console.log(result.text);
-        alert("Message sent successfully!");
-      }, (error) => {
-        console.log(error.text);
-        alert("Failed to send message.");
-      });
+    emailjs.sendForm(
+      'service_9pd5z5r',
+      'template_fkx44ja',
+      form.current,
+      'RoiwjYykO6KZ2YWF-'
+    )
+    .then((result) => {
+      console.log(result.text);
+      alert("Message sent successfully!");
+      form.current.reset(); // clear form after success
+    }, (error) => {
+      console.log(error.text);
+      alert("Failed to send message.");
+    });
   };
 
   return (
@@ -44,7 +50,9 @@ const ContactSection = () => {
           <h2 className="display-4 fw-bold mb-3">
             <span className="gradient-text">Get In Touch</span>
           </h2>
-          <p className="lead text-white">Ready to collaborate on exciting projects or discuss opportunities in software development and AI</p>
+          <p className="lead text-white">
+            Ready to collaborate on exciting projects or discuss opportunities in software development and AI
+          </p>
         </div>
 
         <div className="row justify-content-center">
@@ -52,6 +60,7 @@ const ContactSection = () => {
             <div className={`${isVisible ? 'fade-in-up' : 'opacity-0'}`} style={{ animationDelay: '0.3s' }}>
               <form ref={form} onSubmit={sendEmail} className="custom-card p-4">
                 <h4 className="fw-bold text-white mb-4">Send a Message</h4>
+
                 <div className="mb-3">
                   <input
                     type="text"
@@ -61,15 +70,17 @@ const ContactSection = () => {
                     required
                   />
                 </div>
+
                 <div className="mb-3">
                   <input
                     type="email"
-                    name="user_email"
+                    name="email" // ✅ fixed name to match EmailJS variable
                     className="form-control form-control-custom"
                     placeholder="Your Email"
                     required
                   />
                 </div>
+
                 <div className="mb-3">
                   <textarea
                     name="message"
@@ -79,6 +90,7 @@ const ContactSection = () => {
                     required
                   ></textarea>
                 </div>
+
                 <button type="submit" className="btn btn-glow text-white w-100 py-3">
                   <i className="bi bi-send me-2"></i>
                   Send Message
