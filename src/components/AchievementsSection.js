@@ -24,10 +24,42 @@ const AchievementsSection = () => {
 
   const achievements = [
     {
+      title: "Getting Started with AWS Services Fundamentals for Beginners",
+      type: "Certification",
+      description: "Simplilearn SkillUp certification covering core Amazon Web Services (AWS) concepts and services",
+      url: "https://simpli-web.app.link/e/pilfpVakO4b",
+      icon: "bi-award",
+      category: "Technical"
+    },
+    {
+      title: "Business Analysis Basics",
+      type: "Certification",
+      description: "Simplilearn SkillUp certification covering the fundamentals of business analysis techniques and processes",
+      url: "https://simpli-web.app.link/e/VPtyqcckO4b",
+      icon: "bi-award",
+      category: "Technical"
+    },
+    {
+      title: "Introduction to CBAP",
+      type: "Certification",
+      description: "Simplilearn SkillUp certification introducing Certified Business Analysis Professional standards and methodologies",
+      url: "https://simpli-web.app.link/e/UaWTE9nDN4b",
+      icon: "bi-award",
+      category: "Technical"
+    },
+    {
+      title: "Complete Data Analyst Bootcamp From Basics To Advanced",
+      type: "Certification",
+      description: "Udemy certification covering Python, SQL, Power BI, and data analysis methodologies",
+      url: "https://ude.my/UC-10342094-976b-45b4-b399-1f231f94ef95",
+      icon: "bi-award",
+      category: "AI/ML"
+    },
+    {
       title: "Gen AI Academy by Google Cloud and H2S",
       type: "Certification",
       description: "Completed Gen AI Academy by Google Cloud and H2S, gaining hands-on experience with tools like Vertex AI, Gemini APIs, and Streamlit",
-      url: "https://certificate.com",
+      url: "https://certificate.hack2skill.com/legacy/2025H2S04GENAI-A01241",
       icon: "bi-award",
       category: "AI/ML"
     },
@@ -35,7 +67,7 @@ const AchievementsSection = () => {
       title: "GDSC Gen AI Study Jams 2024",
       type: "Completion",
       description: "Earned 15 badges for completion of the GDSC Gen AI Study Jams 2024",
-      url: "https://www.credly.com",
+      url: "https://www.credly.com/users/shivin-goyal/badges",
       icon: "bi-star",
       category: "AI/ML"
     },
@@ -43,7 +75,7 @@ const AchievementsSection = () => {
       title: "Neural Networks Certification",
       type: "Certification",
       description: "Coursera certification for neural networks",
-      url: "https://coursera.org",
+      url: "https://coursera.org/share/67d1e91e766b0fc6bcd2cafac76f7ba5",
       icon: "bi-award",
       category: "AI/ML"
     },
@@ -68,6 +100,14 @@ const AchievementsSection = () => {
       type: "Certification",
       description: "Coursera certification for Convolutional Neural Networks",
       url: "https://www.coursera.org/account/accomplishments/verify/FUYFZDTW4A89",
+      icon: "bi-award",
+      category: "AI/ML"
+    },
+    {
+      title: "Sequence Models Certification",
+      type: "Certification",
+      description: "Coursera certification for Sequence Models",
+      url: "https://coursera.org/share/3a4ae2bc86c45e33cda7da3f79dbd77d",
       icon: "bi-award",
       category: "AI/ML"
     },

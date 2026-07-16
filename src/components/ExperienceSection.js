@@ -14,6 +14,16 @@ const ExperienceSection = () => {
 
   const experiences = [
     {
+      title: "HR Technology Intern",
+      company: "myHQ (by ANAROCK)",
+      period: "2025",
+      type: "Internship",
+      description: "Developed production-ready web applications using Supabase, Firebase, and JavaScript. Managed talent acquisition, competitor analysis using Apollo, Clay, Dripify, and Expandi, and automated Excel workflows with Google Apps Script.",
+      highlights: ["Production-ready web app development", "Talent acquisition management", "Competitor analysis", "Excel workflow automation with Google Apps Script"],
+      technologies: ["Supabase", "Firebase", "JavaScript", "Apollo", "Clay", "Dripify", "Expandi", "Google Apps Script"],
+      icon: "bi-building"
+    },
+    {
       title: "Web Development Intern",
       company: "Elite Web Technologies",
       period: "Summer 2023",
