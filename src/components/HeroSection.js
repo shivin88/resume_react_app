@@ -27,7 +27,7 @@ const HeroSection = () => {
               <p className="lead text-muted">Passionate about Software Development, Data Analysis, AI, and Emerging Technologies</p>
             </div>
             <div className="d-flex flex-wrap gap-3 justify-content-center mb-4">
-              <a href="/Shivin_Goyal_Resume.pdf" download className="btn btn-glow text-white px-4 py-2">
+              <a href="/Resume-2.pdf" download className="btn btn-glow text-white px-4 py-2">
                 <i className="bi bi-download me-2"></i>
                 Download Resume
               </a>
