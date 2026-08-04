@@ -13,7 +13,7 @@ const EducationSection = () => {
   }, []);
 
   const education = [
-    { degree: "B.Tech Computer Science Engg.", year: "2023-2027", institute: "Punjab Engineering College, Chandigarh", score: "7.73/10", type: "CGPA", icon: "bi-mortarboard" },
+    { degree: "B.Tech Computer Science Engg.", year: "2023-2027", institute: "Punjab Engineering College, Chandigarh", score: "7.79/10", type: "CGPA", icon: "bi-mortarboard" },
     { degree: "12th (CBSE)", year: "2023", institute: "Gurukul Global School, Chandigarh", score: "90%", type: "Percentage", icon: "bi-award" },
     { degree: "10th (CBSE)", year: "2021", institute: "Gurukul Global School, Chandigarh", score: "96%", type: "Percentage", icon: "bi-award" }
   ];
